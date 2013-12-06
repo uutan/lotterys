@@ -1,0 +1,27 @@
+{
+  "family": "uutan",
+  "name": "lotterys",
+  "version": "1.0.0",
+  "description": "使用angularjs展示的抽奖系统啊。完全练手作品啊。",
+  "homepage": "https://github.com/uutan/lotterys",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uutan/lotterys.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": ["widget"],
+  "licenses": "MIT",
+  "spm": {
+    "output": ["lottery.js"],
+    "alias": {
+		  "jquery" : "jquery/jquery/1.9.1/jquery",
+		  "jquery-easing": "jquery/easing/1.3.0/easing.js",
+		  "angular" : "angular/angularjs/1.1.5/angular"
+	},
+    "devAlias": {},
+    "engines": {}
+  }
+}
